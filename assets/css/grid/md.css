@@ -12,6 +12,54 @@
 	}
 
 
+	/* Slider menu */
+
+	.tns-outer {
+		/* height: 1000px; */
+		transform: translateY(100px);
+		margin-bottom: 100px;
+	}
+
+	.carousel div.item > .description {
+		height: 60%;
+		width: unset;
+
+		right: 0;
+		left: 0;
+		bottom: unset;
+		top: 20%;
+
+		border-left: unset;
+		border-right: unset;
+		border-top: groove 2px;
+		border-bottom: groove 2px;
+	}
+
+
+	.carousel div.item > .description > .text-box {
+		padding-top: unset;
+		height: 90%;
+	}
+
+	.carousel div.item > .more {
+		bottom: 0;
+		right: 50%;
+		transform: translateX(50%);
+		padding: 25px 50px;
+	}
+
+
+	.carousel div.item.tns-slide-active > .more {
+		bottom: 30px;
+		right: 50%;
+		transform: translateX(50%);
+	}
+
+	.tns-outer::after {
+		background-size: 180% 100%;
+	}
+
+
 	/*NAVIGATION*/
 
 
