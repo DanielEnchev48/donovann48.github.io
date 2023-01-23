@@ -1,0 +1,49 @@
+.shell {
+	width: 1170px;
+	max-width: 90%;
+	margin: 0 auto;
+	position: relative;
+	cursor: default;
+/*	font-family: 'segoe';*/
+	font-family: Segoe UI;
+	font-weight: 100;
+/*	letter-spacing: 1px;*/
+}
+
+/*Welcome Message*/
+
+div.background {
+	background: url('../img/background.png') top center;
+	background-size: cover;
+
+}
+
+section.wel_mes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	height: 650px;
+	cursor: default;
+	
+}
+
+section.wel_mes > .shell > .text {
+	display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 13px;
+}
+
+section.wel_mes > .shell > .text > span {
+	display: inline-block;
+	text-transform: uppercase;
+	background: #353f46dd;
+	
+	padding: 10px;
+	font-size: 42px;
+	color: #fff;
+}
+

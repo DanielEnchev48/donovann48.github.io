@@ -1,0 +1,43 @@
+footer {
+/*	padding: 60px 0;*/
+	height: 170px;
+	background: #353f47;
+	display: flex;
+    align-items: center;
+}
+
+footer > .shell {
+	display: flex;
+}
+
+
+footer > .shell > span {
+	padding: 0 15px;
+}
+
+footer > .shell > span + span {
+	border-left: solid 2px #515f67;
+}
+
+
+footer > .shell > span > a {
+	text-decoration: none;
+	color: #515f67;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+footer > .shell > .year {
+	position: absolute;
+	right: 0;
+	color: #515f67;
+	font-weight: bold;
+	font-size: 12px;
+
+}
+
+footer > .shell > .year:after {
+	content:"\00A9";
+}
+
+

@@ -1,0 +1,113 @@
+/*Header Layout*/
+header {
+	height: 150px;
+	background: #353f46dd;
+	letter-spacing: 1px;
+} 
+
+header > .shell {
+	display: flex;
+	height: 100%;
+	flex-wrap: wrap;
+}
+
+
+/*Logo*/
+header > .shell > .logo {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+header > .shell > .logo > a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+header > .shell > .logo > a > span {
+	color: #4bcaff;
+}
+
+
+/*Navigation*/
+nav {
+	height: 100%;
+}
+
+nav > ul {
+	display: flex;
+	justify-content: flex-end;
+    align-items: center;
+    column-gap: 10px;
+    text-transform: uppercase;
+
+	height: 100%;
+}
+
+nav > ul > li {
+}
+
+nav > ul > li > span,
+nav > ul > li > a {
+	position: relative;
+/*	padding: 7px 17px;*/
+	font-weight: bold;
+
+
+	text-decoration: none;
+	font-size: 14px;
+
+
+	color: #fff;
+	box-sizing: border-box;
+
+}
+
+nav > ul > li > a {
+	padding: 5px;
+	margin: 10px ;
+}
+
+
+nav > ul > li > a:hover > span:after {
+	content: '';
+	width: 30%;
+	
+	position: absolute;
+	right: 50%;
+	bottom: 3px;
+	transform: translateX(50%);
+
+	border-bottom: solid;
+	border-width: 1px;
+}
+
+
+nav > ul > li.active {
+	
+	cursor: default;
+	color: #4bcaff;
+	padding: 7.5px 15px;
+	border: solid 2px;
+	box-sizing: border-box;
+
+}
+
+nav > ul > li.active > span {
+/*	display: flex;
+	align-items: center;
+    justify-content: center;
+*/
+	color: #4bcaff;
+	background: transparent;
+}
+
+
+
+
+
+
+
+

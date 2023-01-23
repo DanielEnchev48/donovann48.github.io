@@ -1,0 +1,101 @@
+section.contact {
+	background: url(../img/cup.png);
+	background-size: cover;
+
+	padding: 70px 0;
+	color: #fff;
+}
+
+section.contact > .shell > h2 {
+	position: relative;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+section.contact > .shell > .form {
+	display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+	margin-bottom: 20px;    
+}
+
+section.contact > .shell > .form > label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+section.contact > .shell > .form > label > input {
+	width: 100%;
+	max-width: 470px;
+	height: 60px;
+	padding: 10px;
+	margin-top: 8px;
+	box-sizing: border-box;
+
+	background: transparent;
+	font-size: 30px;
+	border: solid white 2px;
+	color: #fff;
+}
+
+section.contact > .shell > .form > label > input:focus {
+	outline: none;
+}
+
+
+section.contact > .shell > .form > label.message > textarea {
+	display: block;
+	height: 220px;
+	width: 100%;
+
+	margin-top: 8px;
+	padding: 10px;
+	box-sizing: border-box;
+	resize: none;
+
+	background: transparent;
+	font-size: 30px;
+	border: solid white 2px;
+	color: #fff;
+
+}
+
+section.contact > .shell > .form > button {
+	height: 60px;
+	max-width: 370px;
+	
+	background: #4bcaff;
+	border: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+section.contact > .shell > .form > label.message > textarea:focus {
+	outline: none;
+}
+
+section.contact > .shell > .info {
+	position: absolute;
+	top: 95px;
+	right: 20px;
+	max-width: 550px;
+	
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: 600;
+
+}
+
+section.contact > .shell > .info > ul {
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
